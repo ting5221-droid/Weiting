@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Global Travel Explorer (Terra Journal)
 
-# Run and deploy your AI Studio app
+A world map application to track your travels, explore country insights using Gemini AI, and create custom digital postcards.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/ebd45676-d664-48b2-8b38-8b3e610eaccd
+- **Interactive World Map**: Track visited countries with a simple click.
+- **AI-Powered Insights**: Get real-time details on climate, visa requirements, currency, and local history for any country.
+- **Postcard Generator**: Create and customize digital postcards for your travel records.
+- **Natural Tones Aesthetic**: A refined, journal-like interface designed for a premium user experience.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS 4.0
+- **Animations**: Framer Motion
+- **AI**: Google Gemini AI (@google/genai)
+- **Maps**: React Simple Maps (D3-geo based)
+- **Icons**: Lucide React
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Configure API Key**: Ensure your `GEMINI_API_KEY` is set in the environment or secrets panel.
+2. **Install Dependencies**: `npm install`
+3. **Run Development Server**: `npm run dev`
+4. **Build for Production**: `npm run build`
+
+## License
+
+Apache-2.0

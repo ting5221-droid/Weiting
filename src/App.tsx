@@ -9,11 +9,11 @@ import { scaleLinear } from "d3-scale";
 import confetti from "canvas-confetti";
 import { Search, Map as MapIcon, Plane, Info, Landmark, ShieldAlert, Coins, Share2, Printer, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { cn } from "@/src/lib/utils";
-import { fetchCountryDetails, CountryDetails } from "@/src/services/geminiService";
+import { cn } from "./lib/utils";
+import { fetchCountryDetails, CountryDetails } from "./services/geminiService";
 
-// World map data URL
-const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
+// World map data URL (Using GitHub raw for better availability)
+const geoUrl = "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson/world-110m.json";
 
 export default function App() {
   const [visited, setVisited] = useState<string[]>([]);
