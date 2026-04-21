@@ -1,0 +1,6 @@
+{
+  "name": "Global Travel Explorer",
+  "description": "A world map app to track visited countries, create custom postcards, and explore country details including climate, visa requirements, and history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
